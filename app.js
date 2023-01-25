@@ -20,6 +20,6 @@ function getFile(url) {
   fetch(url)
     .then((rep) => rep.text())
     .then((data) => {
-      output.textContent = data;
+      headretOne.textContent = data;
     });
 }
